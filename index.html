@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><u>1.Student Registration Form</u></h1>
+    <form>
+        <label for="sname">Student Name:</label>
+        <input type="text" id="sname" placeholder="eg.name" name="stu" required/>
+        <br><br>
+        <label for="fname">Father's Name: </label>
+        <input type="text" id="fname" placeholder="eg.father name" name="father" required/>
+        <br><br>
+
+        <label for="fname">Mother's Name: </label>
+        <input type="text" id="fname" placeholder="eg.mother name" name="mother" required/>
+        <br><br>
+
+        <label for="gen">Gender:</label>
+        <input type="radio" id="gen" name="gender" value="male"/>male
+        <input type="radio" id="gen" name="gender" value="male"/>female
+        <input type="radio" id="gen" name="gender" value="male"/>others
+        <br><br>
+        <label for="bday">Date of Birth:</label>
+        <input type="date" id="bday" name="dob"/>
+        <br><br>
+        <labe for="ph">Phone number:</labe>
+        <input type="tel" id="ph" name="phone" placeholder="eg.1234556789" pattern="[0-9]{10}"/>
+        <br><br>
+
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" name="mail" placeholder="eg.ram@gmail.com" required/>
+        <br><br>
+
+        <label>level:</label>
+        <select id="lev" name="lv">
+            <option>High</option>
+            <option>Low</option>
+        </select>
+        <hr>
+            <h4><u>Permanent Address:</u></h4>
+            <br>
+            <label for="st">State:</label>
+            <input type="text" id="st" placeholder="eg.state" name="state" required/>
+
+            <br><br>
+
+            <label for="ct">City:</label>
+            <input type="text" id="ct" placeholder="eg.city" name="city" required/>
+
+            <br><br>
+
+            <label for="cd">Zipcode:</label>
+            <input type="text" id="cd" placeholder="eg.zipcode" name="code" required/>
+
+            <br><br>
+
+            <label for="mb">Tel/Mobile:</label>
+            <input type="text" id="mb" placeholder="eg.123456789" name="mbb" pattern="[0-9]{10}" required/>
+
+            <hr>
+
+            <h4><u>Temporary Address:</u></h4>
+            <br>
+
+            <label><b>same as permanent address</b></label>
+            <input type="checkbox"/>
+            <br><br>
+            <label for="st">State:</label>
+            <input type="text" id="st" placeholder="eg.state" name="state" required/>
+
+            <br><br>
+
+            <label for="ct">City:</label>
+            <input type="text" id="ct" placeholder="eg.city" name="city" required/>
+
+            <br><br>
+
+            <label for="cd">Zipcode:</label>
+            <input type="text" id="cd" placeholder="eg.zipcode" name="code" required/>
+
+            <br><br>
+
+            <label for="mb">Tel/Mobile:</label>
+            <input type="text" id="mb" placeholder="eg.1234565789" name="mbb" required/>
+            <br><br>
+        <input type="submit" value="Register" style="background-color: lightblue;"/>
+
+
+        </form>
+        <br><br><br>
+
+        <form>
+            <h1><u>2.Login Form</u></h1>
+            <label for="lg">Email or Phone: </label><br>
+            <input type="text" id="lg" name="login" required/>
+            <br><br>
+            <label id="pass">Password:</label><br>
+            <input type="password" id="pass" name="pp" required/>
+            <br><br>
+            Forget Password?
+            <br><br>
+            <input type="submit" value="Login" style="background-color: rgb(241, 176, 220);"/>
+            <br><br>
+            Not a Member? 
+            <a href="">Sign up</a>
+
+
+        </form>
+
+</body>
+</html>
